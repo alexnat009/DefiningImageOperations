@@ -23,7 +23,7 @@ In this context I've defined inverse of an image as follows:
 Because of having NxNx3 matrix with RGB vectors as elements, regular inverse of a matrix couldn't be defined.
 To do that firstly i had to define inverse of a 1x3 RGB vector. 
 inverse of a RGB vector:
-If we have RGB vector A = [x, y, z], then $A^-1$ = [255 - x, 255 - y, 255 - z,]
+If we have RGB vector A = [x, y, z], then A<sup>-1</sup> = [255 - x, 255 - y, 255 - z,]
 after that inverse of a matrix is trivial: every element (a.k.a RGB vector) = [255 - x, 255 - y, 255 - z,] where (x, y, z)
 is the original vector
 
