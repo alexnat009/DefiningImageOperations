@@ -35,5 +35,5 @@ A ± B , where A and B are matrices outputs matrix whose elements are sum(differ
 
 4. similarity transforamtion
 It's done in two different ways:
-4.1. B = P<sup>-1</sup> * A * P where A is NxN RGB matrix and P is NxN scalar matrix
-4.2. B = P<sup>-1</sup> * A * P where A and P are NxN RGB matrices
+  4.1. B = P<sup>-1</sup> * A * P where A is NxN RGB matrix and P is NxN scalar matrix
+  4.2. B = P<sup>-1</sup> * A * P where A and P are NxN RGB matrices
